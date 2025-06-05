@@ -33,7 +33,7 @@ This project builds a **Linear Regression model** to predict product sales based
 - `advertising.csv` – Dataset with advertising spends and sales
 - `Sales_Predection.ipynb` – Google Colab/Jupyter Notebook with full code
 - `processed_advertising.csv` – Cleaned version of the dataset (optional)
-- `README.md` – This file
+
 
 ##  Tools & Libraries
 
