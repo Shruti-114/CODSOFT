@@ -48,4 +48,37 @@ This project builds a **Linear Regression model** to predict product sales based
 2. Upload `advertising.csv`
 3. Run each cell in `Sales_Predection.ipynb`
 
+# 💳 Credit Card Fraud Detection
+
+## Project Overview
+This project applies **Machine Learning** techniques to detect fraudulent credit card transactions. It uses the highly imbalanced `creditcard.csv` dataset, with the goal of accurately classifying transactions as fraudulent or legitimate.
+
+
+##  Files in This Repository
+
+- `creditcard.csv` – Dataset containing anonymized transaction data
+- `creditcardfraud_detection.ipynb` – Jupyter/Colab Notebook with complete data processing and model training
+- `processed_creditcard.csv` – Cleaned version of the dataset (optional)
+
+##  Tools & Libraries
+
+- Python
+- `pandas`, `numpy`, `seaborn`, `matplotlib`
+- `scikit-learn` for modeling
+- `StandardScaler` for normalization
+
+##  Dataset Information
+
+- Contains transactions made by European cardholders in September 2013
+- 284,807 total transactions
+- Only 492 (0.17%) are fraudulent
+- Features are anonymized using PCA (`V1` to `V28`), plus `Amount`, `Time`, and `Class`
+
+
+
+##  How to Run
+
+###  In Google Colab
+1. Upload `creditcard.csv`
+2. Run the notebook `credit_fraud_detection.ipynb`
 
